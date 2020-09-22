@@ -1,0 +1,69 @@
+/* Breadcrumb Area start */
+.breadcrumb-area {
+    padding: 150px 0 90px 0;
+    position: relative;
+}
+.breadcrumb-area::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #ffdbdb, #ffe0e0 100%);
+    top: 0;
+    opacity: .85;
+    right: 0;
+    z-index: 0;
+}
+.bannner-1{
+    background-image: url(../../images/banner/9.jpg);
+}
+.bread-menu ul li{
+    display: inline-block;
+}
+.bread-menu ul li a{
+    color: #6a6a8e;
+    font-size: 16px;
+    font-weight: 400;
+    padding-right: 6px;
+    display: inline-block;
+}
+.bread-menu ul li+li::before {
+    content: "\f111";
+    font-family: 'Font Awesome 5 Free';
+    font-size: 5px;
+    font-weight: 700;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: -3px;
+}
+.bread-title h2 {
+    font-weight: 400;
+    font-size: 35px;
+    margin: 15px 0 0;
+    line-height: 47px;
+}
+
+/* Breadcrumb Area end */
+
+/* About agency start */
+.about-agency.pad-tb.block-1 p+p {
+    margin: 25px 0 0 0;
+}
+.about-statistics span {
+    color: #ff1f8e;
+    font-size: 35px;
+    font-family: Poppins,sans-serif;
+    font-weight: 700;
+}
+
+.about-statistics p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+
+/* About agency end */
+
+.why-choose {
+    background: #f7fcff;
+}
