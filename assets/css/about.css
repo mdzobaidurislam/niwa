@@ -93,3 +93,53 @@
     padding: 0 32px;
     margin: 10px;
 }
+
+/* Our team section start  */
+
+.single-image img {
+    width: 100%;
+    transition: all .3s;
+}
+
+.single-image {
+    overflow: hidden;
+    box-shadow: 0 3.4px 2.7px -30px rgba(0,0,0,.059), 0 8.2px 8.9px -30px rgba(0,0,0,.071), 0 25px 40px -30px rgba(0,0,0,.2);
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.full-iamge-card.hover-scale:hover img {
+    transform: scale(1.1);
+}
+.info-text-block {
+    margin: 20px 0 0 0;
+}
+
+.info-text-block h4 a {
+    color: #050748;
+}
+.hover-scale:hover img{
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+/* Our team section end  */
+
+/* Team single page details  */
+.single-social-media-profile a {
+    color: #6a6a8e;
+    margin: 0px 10px;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    line-height: 34px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+}
+.single-social-media-profile a:hover {
+    transform: rotate(360deg);
+}
