@@ -478,7 +478,7 @@ span.circle2 {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1;
     padding-top: 0;
     padding-bottom: 0;
     height: 100px;
@@ -950,9 +950,6 @@ a.btn-br.btn-round.trngl:after {
     margin-bottom: 20px;
 }
 
-.location-text{
-
-}
 .location-card img {
     background: #fbf4f1;
     padding: 20px;
@@ -1205,4 +1202,154 @@ h4.post-title a {
     border-radius: 4px;
     display: inline-block;
     text-align: center;
+}
+
+/* mobile menu  */
+li.nav-m a span {
+    display: block;
+    position: absolute;
+    left: 0;
+    height: 4px;
+    background: #050748;
+    transition: all .2s ease;
+    width: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    transform-origin: 50% 50%;
+}
+
+li.nav-m a {
+    display: block;
+    width: 30px;
+    min-height: 47px;
+    top: 20px;
+    position: relative;
+}
+
+.mobaile-menu-2 ul li {
+    display: inline-block;
+}
+
+li.nav-m {
+    margin: 0 0 0 10px;
+    position: relative;
+}
+
+li.nav-m a span::before {
+    content: '';
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -10px;
+    height: 4px;
+    background: #050748;
+    transition: all .2s ease;
+}
+
+li.nav-m a span::after {
+    content: '';
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 4px;
+    background: #050748;
+    transition: all .2s ease;
+}
+
+a.tigger-m.tigger-m-c span::after {
+    transform: rotate(-90deg) translate3d(10px,0,0);
+}
+
+
+
+a.tigger-m.tigger-m-c span::before {
+    transform: translate3d(0,9px,0);
+}
+
+a.tigger-m.tigger-m-c span {background: rgba(0,0,0,0)!important;transform: rotate(45deg);}
+
+
+
+
+
+
+
+
+
+.mobaile-menu {
+    height: 100vh;
+    width: 250px;
+    background: #101010;
+    top: 0;
+    left: -250px;
+    z-index: 111;
+    position: fixed;
+    color: #fff;
+    overflow: hidden;
+    padding-top: 30px;
+    transition: all .5s ease;
+}
+.mobaile-menu ul li {
+    padding-top: 21px;
+}
+.mobaile-menu ul li a {
+    color: #fff;
+}
+
+h2.nav-title {
+    text-transform: uppercase;
+    letter-spacing: -1.96px;
+}
+
+.mobaile-menu ul {
+    padding-left: 30px;
+}
+
+.m-header {
+    display: flex;
+    background: #fff;
+}
+
+.m-header img {
+    width: 25px;
+    height: 24px;
+    position: relative;
+    top: 13px;
+    right: 10px;
+}
+
+.m-open{
+    left: 0;
+}
+
+/* a#close1 {
+    position: absolute;
+    width: 34px;
+    min-height: 40px;
+    transition: all .5s;
+    display: none;
+    top: 25px;
+    right: 15px;
+}
+
+a#close1 img {
+    width: 100%;
+    height: 100%;
+} */
+
+/* Resposive  */
+.mobaile-menu-2 {
+    display: none;
+}
+@media only screen and (max-width: 1150px){
+    .custom-menu{
+        display: none;
+    }
+    .mobaile-menu-2 {
+        display: block;
+    }
+
 }
