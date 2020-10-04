@@ -1,0 +1,109 @@
+/* responsive css  */
+
+@media only screen and (max-width: 1370px){
+    .hero-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        height: 750px;
+    }
+
+}
+@media only screen and (max-width:1150px){
+    .heading-area h1 {
+        font-size: 45px;
+        line-height: 55px;
+    }
+}
+
+@media only screen and (max-width:991px){
+    .hero-section {
+        padding-top: 120px;
+        padding-bottom: 100px;
+        height: auto;
+    }
+    .heading-area h1 {
+        font-size: 38px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .heading-area p {
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .btn-m {
+        display: block;
+        max-width: max-content;
+        margin: 0 auto;
+    }
+    .image-block {
+        text-align: center;
+    }
+    .text-l {
+        text-align: center;
+    }
+    .services-block h4 {
+        font-size: 18px;
+    }
+    html .mt100 {
+        margin-top: 0;
+    }
+    .counter-icon {
+        width: 80px;
+        height: 80px;
+    }
+    .client-block ul li {
+        width: 33.33%;
+    }
+    .work-card-box {
+        width: 33.33%;
+    }
+    .testimonial-text p {
+        text-align: center !important;
+    }
+    .user- {
+        display: table;
+        margin: auto;
+    }
+    input#exampleCheck1 {
+        width: 82%;
+    }
+    .form-block-c button{
+        max-width: 100%;
+    }
+    .location-text {
+        text-align: center;
+    }
+    .email-subcribe {
+        text-align: center;
+    }
+    .footer-social-media-icons a {
+        margin: 0 10px;
+    }
+    
+    .free-cta-title {
+        display: block;
+    }
+    
+    .free-cta-title p {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 0 0 30px;
+    }
+    
+}
+
+@media only screen and (max-width:767px){
+    .client-block ul li {
+        width: 50%;
+    }
+    .work-card-box {
+        width: 50%;
+    }
+    .post-thum {
+        width: 170px;
+    }
+    .footer-social-media-icons a {
+        margin: 0 8px;
+    }
+}

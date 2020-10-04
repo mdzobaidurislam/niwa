@@ -533,13 +533,7 @@ a.btn-br.btn-round.trngl:after {
     display: grid;
     overflow: hidden;
 }
-@media only screen and (max-width: 1370px){
-.hero-section {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    height: 750px;
-}
-}
+
 
 .hero-bg-bg1:before {
     content: "";
@@ -929,8 +923,8 @@ a.btn-br.btn-round.trngl:after {
 
 .form-check-input {
     height: 18px !important;
-    position: absolute;
-    left: -245px;
+    width: 18px !important;
+    left: 1px;
 }
 
 .form-check label {
@@ -948,6 +942,7 @@ a.btn-br.btn-round.trngl:after {
 /* Our location  */
 .location-card {
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .location-card img {
@@ -1325,20 +1320,6 @@ h2.nav-title {
     left: 0;
 }
 
-/* a#close1 {
-    position: absolute;
-    width: 34px;
-    min-height: 40px;
-    transition: all .5s;
-    display: none;
-    top: 25px;
-    right: 15px;
-}
-
-a#close1 img {
-    width: 100%;
-    height: 100%;
-} */
 
 /* Resposive  */
 .mobaile-menu-2 {
